@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+.none {
+    display: none !important;
+}
+
+.lol {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0) !important;
+}
+
+.container {
+    width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+
+        // position: fixed;
+        .container_header {
+            width: 100%;
+            height: 80px;
+            padding: 20px 40px;
+            border: 2px solid #696969;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                width: 64px;
+                height: 64px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .nav {
+                width: 400px;
+                display: flex;
+                gap: 35px;
+                font-size: 18px;
+                font-weight: 700;
+                a{
+                color: rgba(52, 52, 52, 0.826);
+                }
+
+                a:hover {
+                    color: #000;
+                    text-decoration: underline;
+                }
+            }
+
+            .account {
+                img {
+                    width: 52px;
+                    height: 52px;
+                    border-radius: 64px;
+                }
+            }
+
+        }
+
+    }
+
+    .main {
+        width: 1440px;
+        height: 100vh;
+
+        .vibor {
+            width: 1440px;
+            height: 50px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #65c214;
+
+            .tel {
+                padding: 0 5px;
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 8px;
+                transition: 900ms;
+                color: #696969;
+                border: 1px solid #696969;
+            }
+
+            .tel:hover {
+                box-shadow: 0px 0px 10px 2px rgb(0, 255, 0, );
+                transition: 300ms;
+                // padding: 1px 5px;
+                font-size: 19px;
+            }
+
+            .pc {
+                padding: 0 5px;
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 8px;
+                transition: 900ms;
+                color: #696969;
+                border: 1px solid #696969;
+            }
+
+            .pc:hover {
+                box-shadow: 0px 0px 10px 2px rgb(0, 255, 0, );
+                transition: 300ms;
+                // padding: 1px 5px;
+                font-size: 19px;
+            }
+        }
+
+
+        .market_phone {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+
+            .product {
+                width: 232px;
+                height: 380px;
+                background: #7e7e7e8c;
+                display: flex;
+                flex-direction: column;
+                border-radius: 8px;
+                overflow: hidden;
+                transition: 200ms;
+
+                &_img {
+                    img {
+                        width: 232px;
+                    }
+                }
+
+                &_titel {
+                    p {
+                        font-size: 17px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+
+                &_discount {
+                    p {
+                        margin-top: 15px;
+                        font-size: 17px;
+                        font-weight: 700;
+                        text-align: center;
+                    }
+                }
+
+                &_price {
+                    p {
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-align: center;
+                        color: #101010;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+
+            .product:hover {
+                box-shadow: 0 0 15px 5px #7e7e7e8c;
+                transition: 200ms;
+            }
+        }
+
+        .market_pc {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+
+            .product_pc {
+                width: 232px;
+                height: 380px;
+                background: #a76d10;
+                display: flex;
+                flex-direction: column;
+                border-radius: 8px;
+                overflow: hidden;
+
+                &_img {
+                    padding: 20px 0 10px 0;
+                    img {
+                        width: 232px;
+                    }
+                }
+
+                &_titel {
+                    p {
+                        font-size: 17px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+
+                &_discount {
+                    p {
+                        margin-top: 15px;
+                        font-size: 17px;
+                        font-weight: 700;
+                        text-align: center;
+                    }
+                }
+
+                &_price {
+                    p {
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-align: center;
+                        color: #101010;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+}

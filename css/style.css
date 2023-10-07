@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.none {
+  display: none !important;
+}
+
+.lol {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 0) !important;
+}
+
+.container {
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.container .header .container_header {
+  width: 100%;
+  height: 80px;
+  padding: 20px 40px;
+  border: 2px solid #696969;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header .container_header .logo {
+  width: 64px;
+  height: 64px;
+}
+.container .header .container_header .logo img {
+  width: 100%;
+  height: 100%;
+}
+.container .header .container_header .nav {
+  width: 400px;
+  display: flex;
+  gap: 35px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.container .header .container_header .nav a {
+  color: rgba(52, 52, 52, 0.826);
+}
+.container .header .container_header .nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.container .header .container_header .account img {
+  width: 52px;
+  height: 52px;
+  border-radius: 64px;
+}
+.container .main {
+  width: 1440px;
+  height: 100vh;
+}
+.container .main .vibor {
+  width: 1440px;
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #65c214;
+}
+.container .main .vibor .tel {
+  padding: 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 900ms;
+  color: #696969;
+  border: 1px solid #696969;
+}
+.container .main .vibor .tel:hover {
+  box-shadow: 0px 0px 10px 2px rgb(0, 255, 0);
+  transition: 300ms;
+  font-size: 19px;
+}
+.container .main .vibor .pc {
+  padding: 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 900ms;
+  color: #696969;
+  border: 1px solid #696969;
+}
+.container .main .vibor .pc:hover {
+  box-shadow: 0px 0px 10px 2px rgb(0, 255, 0);
+  transition: 300ms;
+  font-size: 19px;
+}
+.container .main .market_phone {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.container .main .market_phone .product {
+  width: 232px;
+  height: 380px;
+  background: rgba(126, 126, 126, 0.5490196078);
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 200ms;
+}
+.container .main .market_phone .product_img img {
+  width: 232px;
+}
+.container .main .market_phone .product_titel p {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+.container .main .market_phone .product_discount p {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+.container .main .market_phone .product_price p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #101010;
+  text-decoration: line-through;
+}
+.container .main .market_phone .product:hover {
+  box-shadow: 0 0 15px 5px rgba(126, 126, 126, 0.5490196078);
+  transition: 200ms;
+}
+.container .main .market_pc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.container .main .market_pc .product_pc {
+  width: 232px;
+  height: 380px;
+  background: #a76d10;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.container .main .market_pc .product_pc_img {
+  padding: 20px 0 10px 0;
+}
+.container .main .market_pc .product_pc_img img {
+  width: 232px;
+}
+.container .main .market_pc .product_pc_titel p {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+.container .main .market_pc .product_pc_discount p {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+.container .main .market_pc .product_pc_price p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #101010;
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
