@@ -240,6 +240,11 @@ a {
                     }
                 }
             }
+            
+            .product_pc:hover {
+                box-shadow: 0 0 15px 5px #a76d10;
+                transition: 200ms;
+            }
         }
     }
 }
