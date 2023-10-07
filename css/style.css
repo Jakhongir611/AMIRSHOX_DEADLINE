@@ -163,7 +163,7 @@ a {
 .container .main .market_pc .product_pc {
   width: 232px;
   height: 380px;
-  background: #a76d10;
+  background: rgba(167, 109, 16, 0.5843137255);
   display: flex;
   flex-direction: column;
   border-radius: 8px;
