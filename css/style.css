@@ -68,11 +68,12 @@ a {
 .container .main {
   width: 1440px;
   height: 100vh;
+  margin-top: 20px;
 }
 .container .main .vibor {
   width: 1440px;
   height: 50px;
-  margin-bottom: 20px;
+  margin: -20px 0 20px 0;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -119,12 +120,18 @@ a {
 .container .main .market_phone .product {
   width: 232px;
   height: 380px;
-  background: rgba(126, 126, 126, 0.5490196078);
+  background: rgba(189, 189, 189, 0.7137254902);
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
   transition: 200ms;
+  position: relative;
+}
+.container .main .market_phone .product .like_fovarite {
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 .container .main .market_phone .product_img img {
   width: 232px;
@@ -149,7 +156,7 @@ a {
   text-decoration: line-through;
 }
 .container .main .market_phone .product:hover {
-  box-shadow: 0 0 15px 5px rgba(126, 126, 126, 0.5490196078);
+  box-shadow: 0 0 15px 5px rgba(126, 126, 126, 0.6901960784);
   transition: 200ms;
 }
 .container .main .market_pc {
@@ -168,6 +175,12 @@ a {
   flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
+  position: relative;
+}
+.container .main .market_pc .product_pc .like_fovarite {
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 .container .main .market_pc .product_pc_img {
   padding: 20px 0 10px 0;
@@ -197,4 +210,10 @@ a {
 .container .main .market_pc .product_pc:hover {
   box-shadow: 0 0 15px 5px #a76d10;
   transition: 200ms;
+}
+.container .izbr {
+  width: 1440px;
+  height: 100vh;
+  background: #ff0000;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
